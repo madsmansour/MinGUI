@@ -16,7 +16,8 @@ public class Controller {
         String s = commandFieldx.getText();
         System.out.println("Klik " + s);
         commandFieldx.clear();
-        textArea.setText("Der er indtastet: " + s);
+        textArea.setText(textArea.getText() + "Der er indtastet: " + s + "\n");
+
 
     }
 
